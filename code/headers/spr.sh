@@ -6,6 +6,6 @@ for ((i=0;;i++)); do
 		printf "OK $i\r"
 	else
 		echo WA
-		return 0
+                exit 0
 	fi
 done
